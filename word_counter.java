@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class words_counter extends Component {
+public class word_counter extends Component {
 
     private JTextArea ta;
 
@@ -24,7 +24,7 @@ public class words_counter extends Component {
     private JButton reset;
 
 
-    words_counter(){
+    word_counter(){
         JFrame frame = new JFrame("Word Counter");
         frame.setSize(300,300);
 
@@ -98,7 +98,7 @@ public class words_counter extends Component {
     }
 
     public static void main(String[]args){
-        new words_counter();
+        new word_counter();
 
     }
 }
